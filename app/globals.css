@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Caveat:wght@600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-handwriting: 'Caveat', cursive;
+  --bg-cream: #FAF7F2;
+  --primary-green: #0E4431;
+  --accent-green: #2B8255;
+}
+
+body {
+  background-color: var(--bg-cream);
+  color: #1A2820;
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins);
+}
+
+.font-handwriting {
+  font-family: var(--font-handwriting);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #a9c6b3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0E4431;
+}
+
+/* Glass effect utilities */
+.glass-header {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Botanical subtle pattern background */
+.bg-cream-warm {
+  background-color: #FAF7F2;
+}
+
+.bg-cream-surface {
+  background-color: #F4EFE6;
+}
+
+.text-deep-green {
+  color: #0E4431;
+}
+
+.bg-deep-green {
+  background-color: #0E4431;
+}
+
+/* Organic card shapes */
+.rounded-arch {
+  border-radius: 120px 120px 24px 24px;
+}
+
+/* Botanical Leaf Animations */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(4deg);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(10px) rotate(-5deg);
+  }
+}
+
+@keyframes leafSway {
+  0%, 100% {
+    transform: rotate(-3deg) translateY(0);
+  }
+  50% {
+    transform: rotate(5deg) translateY(-6px);
+  }
+}
+
+@keyframes gentleDrift {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(8px, -10px) rotate(6deg);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 7s ease-in-out infinite;
+}
+
+.animate-leaf-sway {
+  animation: leafSway 5s ease-in-out infinite;
+}
+
+.animate-drift {
+  animation: gentleDrift 9s ease-in-out infinite;
+}
+
+.leaf-shadow {
+  filter: drop-shadow(0 12px 20px rgba(14, 68, 49, 0.15));
+}
+
+/* Soft transition */
+* {
+  scroll-behavior: smooth;
+}
+

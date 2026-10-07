@@ -1,0 +1,432 @@
+import { Product } from '@/types/product';
+
+export const products: Product[] = [
+  {
+    id: 'prod-001',
+    slug: 'herpo-gain-plus',
+    name: 'Herpo Gain Plus',
+    subtitle: 'Supports Healthy Weight Gain',
+    category: 'Weight Gain',
+    price: 1299,
+    originalPrice: 1599,
+    rating: 4.8,
+    reviewCount: 120,
+    inStock: true,
+    featured: true,
+    popular: true,
+    badge: 'Popular',
+    image: '/images/products/herpo_gain_plus.jpg',
+    gallery: [
+      '/images/products/herpo_gain_plus.jpg',
+      '/images/banners/herbal_mortar_pestle.jpg',
+      '/images/goals/weight_gain.jpg',
+      '/images/products/energy_boost.jpg',
+    ],
+    unit: '90 Veggie Capsules / 750mg',
+    description:
+      'A specially formulated herpo-based nutritional supplement designed to support healthy weight gain, muscle strength and overall wellness. Made with authentic Ayurvedic botanicals that nourish the digestive fire and enhance natural nutrient absorption without synthetic additives.',
+    features: [
+      'Natural Ingredients',
+      'Herpo Based',
+      'No Harmful Chemicals',
+      'Supports Healthy Gain',
+    ],
+    benefits: [
+      'Supports balanced and natural healthy weight gain',
+      'Boosts muscle strength, stamina and physical vitality',
+      'Nourishes digestive metabolism for optimal nutrient assimilation',
+      'Made with authentic herbal botanical ingredients with zero harsh chemicals',
+      'Suitable for daily wellness support for both men and women',
+    ],
+    ingredients: [
+      'Ashwagandha (Withania somnifera) 250mg',
+      'Shatavari (Asparagus racemosus) 150mg',
+      'Safed Musli (Chlorophytum borivilianum) 150mg',
+      'Gokshura (Tribulus terrestris) 100mg',
+      'Vidarikand (Pueraria tuberosa) 50mg',
+      'Pippali (Piper longum) 50mg',
+    ],
+    howToUse:
+      'Take 1 to 2 capsules twice daily with lukewarm milk or warm water, 30 minutes after meals, or as guided by your wellness consultant.',
+    reviews: [
+      {
+        id: 'rev-01',
+        userName: 'Anjan K.',
+        rating: 5,
+        date: '2 weeks ago',
+        comment:
+          'Herpo Gain Plus really helped me gain healthy weight in 3 months. My appetite and energy improved naturally without feeling bloated. Highly recommended!',
+        verified: true,
+      },
+      {
+        id: 'rev-02',
+        userName: 'Ramesh V.',
+        rating: 5,
+        date: '1 month ago',
+        comment:
+          'Excellent authentic formulation. Gained 4 kgs over two months steadily. Safe and gentle on the stomach.',
+        verified: true,
+      },
+      {
+        id: 'rev-03',
+        userName: 'Vikram Sundaram',
+        rating: 4,
+        date: '2 months ago',
+        comment:
+          'Very good product. Ordering via WhatsApp was super fast and convenient. Delivered promptly.',
+        verified: true,
+      },
+    ],
+  },
+  {
+    id: 'prod-002',
+    slug: 'slim-herpo-blend',
+    name: 'Slim Herpo Blend',
+    subtitle: 'Supports Weight Management',
+    category: 'Weight Management',
+    price: 1199,
+    originalPrice: 1499,
+    rating: 4.6,
+    reviewCount: 98,
+    inStock: true,
+    featured: true,
+    popular: true,
+    badge: 'Best Seller',
+    image: '/images/products/slim_herpo_blend.jpg',
+    gallery: [
+      '/images/products/slim_herpo_blend.jpg',
+      '/images/goals/weight_management.jpg',
+      '/images/banners/promotional_banner.jpg',
+      '/images/banners/herbal_mortar_pestle.jpg',
+    ],
+    unit: '60 Vegetarian Capsules',
+    description:
+      'A natural synergistic herbal formula crafted to support healthy metabolism, balanced appetite, and sustainable weight management goals. Blended with Garcinia Cambogia, Green Tea extracts, and Guggulu to help keep your vitality at its peak.',
+    features: [
+      'Supports Healthy Metabolism',
+      '100% Herbal Botanicals',
+      'No Artificial Stimulants',
+      'Gentle & Sustained',
+    ],
+    benefits: [
+      'Helps maintain active metabolic rate throughout the day',
+      'Supports healthy fat metabolism and balanced appetite',
+      'Naturally detoxifies the gut and supports digestion',
+      'Zero jittery stimulants or crash effects',
+    ],
+    ingredients: [
+      'Vrikshamla / Garcinia Cambogia 300mg',
+      'Green Tea Extract (Camellia sinensis) 150mg',
+      'Shuddha Guggulu 150mg',
+      'Triphala extract 100mg',
+      'Haritaki 50mg',
+    ],
+    howToUse:
+      'Take 1 capsule twice a day with warm water 30 minutes before lunch and dinner, accompanied by light hydration and a balanced lifestyle.',
+    reviews: [
+      {
+        id: 'rev-04',
+        userName: 'Priya M.',
+        rating: 5,
+        date: '3 weeks ago',
+        comment:
+          'The best natural support for weight management. Truly impressed with the results! Feeling lighter and more energetic throughout my workday.',
+        verified: true,
+      },
+      {
+        id: 'rev-05',
+        userName: 'Deepa Krishnan',
+        rating: 4,
+        date: '1 month ago',
+        comment:
+          'Loved the clean herbal ingredients. Great customer support on WhatsApp when I asked for dosage advice.',
+        verified: true,
+      },
+    ],
+  },
+  {
+    id: 'prod-003',
+    slug: 'herpo-immunity',
+    name: 'Herpo Immunity',
+    subtitle: 'Boosts Overall Wellness',
+    category: 'General Wellness',
+    price: 899,
+    originalPrice: 1099,
+    rating: 4.7,
+    reviewCount: 84,
+    inStock: true,
+    featured: true,
+    popular: true,
+    badge: '100% Herbal',
+    image: '/images/products/herpo_immunity.jpg',
+    gallery: [
+      '/images/products/herpo_immunity.jpg',
+      '/images/banners/hero_wellness_woman.jpg',
+      '/images/banners/herbal_mortar_pestle.jpg',
+      '/images/products/detox_cleanse.jpg',
+    ],
+    unit: '60 Capsules / 500mg',
+    description:
+      'A potent Ayurvedic immunity booster powered by wild forest Amla, Organic Turmeric with standardized curcuminoids, and sacred Holy Basil (Tulsi). Helps shield the body against seasonal weather changes and fortifies internal resistance.',
+    features: [
+      'Fortifies Immune Defense',
+      'Rich in Natural Vitamin C',
+      'Traditional Ayush Recipe',
+      'Pure Plant Synergy',
+    ],
+    benefits: [
+      'Strengthens the natural defensive barrier against climate shifts',
+      'Powerful antioxidant protection against cellular oxidative stress',
+      'Soothes the respiratory tract and promotes clear breathing',
+      'Enhances natural rejuvenation and daily resilience',
+    ],
+    ingredients: [
+      'Amalaki / Indian Gooseberry (Emblica officinalis) 250mg',
+      'Haridra / Organic Turmeric (Curcuma longa) 150mg',
+      'Tulsi / Holy Basil (Ocimum sanctum) 100mg',
+      'Giloy / Guduchi (Tinospora cordifolia) 100mg',
+      'Maricha / Black Pepper (Piper nigrum) 10mg',
+    ],
+    howToUse:
+      'Take 1 capsule once or twice daily with warm water in the morning or before bedtime.',
+    reviews: [
+      {
+        id: 'rev-06',
+        userName: 'Suresh R.',
+        rating: 5,
+        date: '1 month ago',
+        comment:
+          '100% authentic quality products. My overall energy and digestion improved drastically. Seasonal colds have completely vanished.',
+        verified: true,
+      },
+    ],
+  },
+  {
+    id: 'prod-004',
+    slug: 'nutrition-plus',
+    name: 'Nutrition Plus',
+    subtitle: 'Daily Lifestyle Support',
+    category: 'General Wellness',
+    price: 1099,
+    originalPrice: 1399,
+    rating: 4.5,
+    reviewCount: 64,
+    inStock: true,
+    featured: true,
+    popular: true,
+    badge: 'Essential',
+    image: '/images/products/nutrition_plus.jpg',
+    gallery: [
+      '/images/products/nutrition_plus.jpg',
+      '/images/goals/general_wellness.jpg',
+      '/images/banners/herbal_mortar_pestle.jpg',
+      '/images/products/herpo_gain_plus.jpg',
+    ],
+    unit: '60 Capsules / 120g Blend',
+    description:
+      'An all-in-one daily botanical superfood supplement featuring Moringa leaf, Black Cumin, Ginger, and organic Flaxseed. Formulated to fill daily nutritional gaps and promote radiant skin, joint flexibility, and lasting vitality.',
+    features: [
+      'Whole Plant Nutrition',
+      'Moringa & Black Cumin',
+      'Antioxidants & Minerals',
+      'Daily Rejuvenation',
+    ],
+    benefits: [
+      'Delivers plant-based micro-nutrients and essential amino acids',
+      'Promotes digestive comfort and gut microbiome balance',
+      'Supports healthy hair, radiant skin, and eye vitality',
+      'Helps maintain steady day-long energy without caffeine',
+    ],
+    ingredients: [
+      'Organic Moringa Leaf (Moringa oleifera) 300mg',
+      'Black Cumin Seed (Nigella sativa) 150mg',
+      'Ginger Root Extract (Zingiber officinale) 100mg',
+      'Flaxseed Extract (Linum usitatissimum) 100mg',
+      'Spirulina extract 50mg',
+    ],
+    howToUse:
+      'Take 1 capsule every morning after breakfast with a glass of water.',
+    reviews: [
+      {
+        id: 'rev-07',
+        userName: 'Meenakshi Sundaram',
+        rating: 5,
+        date: '2 weeks ago',
+        comment:
+          'Very soothing daily supplement. I can feel the pure herbal quality in every dose. Love the prompt WhatsApp consultation too.',
+        verified: true,
+      },
+    ],
+  },
+  {
+    id: 'prod-005',
+    slug: 'detox-herpo-cleanse',
+    name: 'Detox Herpo Cleanse',
+    subtitle: 'Natural Detoxification & Digestion',
+    category: 'General Wellness',
+    price: 999,
+    originalPrice: 1250,
+    rating: 4.4,
+    reviewCount: 52,
+    inStock: true,
+    featured: false,
+    popular: false,
+    badge: 'Digestive',
+    image: '/images/products/detox_cleanse.jpg',
+    gallery: [
+      '/images/products/detox_cleanse.jpg',
+      '/images/banners/herbal_mortar_pestle.jpg',
+      '/images/products/herpo_immunity.jpg',
+    ],
+    unit: '60 Vegetarian Capsules',
+    description:
+      'A gentle traditional detoxifying blend crafted with Triphala, Saunf (Fennel), and Senna leaf extracts. Gently eliminates metabolic waste (Ama) from the digestive tract, encouraging light, refreshed bodily balance.',
+    features: [
+      'Purifying Triphala Blend',
+      'Eliminates Toxins Naturally',
+      'Supports Gut Microbiome',
+      'Non-Habit Forming',
+    ],
+    benefits: [
+      'Gently purifies the gastrointestinal tract overnight',
+      'Relieves morning heaviness, bloating, and irregular bowel habits',
+      'Refreshes skin clarity by removing underlying metabolic residues',
+      'Smooth herbal action with zero harsh cramps',
+    ],
+    ingredients: [
+      'Triphala extract (Amla, Haritaki, Bibhitaki) 400mg',
+      'Fennel / Saunf (Foeniculum vulgare) 150mg',
+      'Licorice / Yashtimadhu (Glycyrrhiza glabra) 100mg',
+      'Ajwain (Trachyspermum ammi) 50mg',
+    ],
+    howToUse:
+      'Take 1 to 2 capsules with lukewarm water at bedtime for 15-30 consecutive days.',
+    reviews: [
+      {
+        id: 'rev-08',
+        userName: 'Karthik Raja',
+        rating: 4,
+        date: '3 weeks ago',
+        comment:
+          'Gentle and truly effective. Did not cause any stomach pain. Feeling very refreshed each morning.',
+        verified: true,
+      },
+    ],
+  },
+  {
+    id: 'prod-006',
+    slug: 'herpo-energy-boost',
+    name: 'Herpo Energy Boost',
+    subtitle: 'Natural Vitality & Stamina',
+    category: 'Weight Gain',
+    price: 1199,
+    originalPrice: 1450,
+    rating: 4.6,
+    reviewCount: 76,
+    inStock: true,
+    featured: false,
+    popular: false,
+    badge: 'Stamina',
+    image: '/images/products/energy_boost.jpg',
+    gallery: [
+      '/images/products/energy_boost.jpg',
+      '/images/goals/weight_gain.jpg',
+      '/images/banners/herbal_mortar_pestle.jpg',
+    ],
+    unit: '60 Capsules / Dietary Supplement',
+    description:
+      'Formulated with Shuddha Shilajit, Kaunch Beej, and Ginseng to restore natural physical vigor, combat day-to-day lethargy, and improve endurance for an active lifestyle.',
+    features: [
+      'Purified Himalayan Shilajit',
+      'Sustained Stamina Boost',
+      'Zero Nervousness or Jitters',
+      'Herbal Adaptogens',
+    ],
+    benefits: [
+      'Enhances physical stamina, athletic performance, and recovery speed',
+      'Combats chronic daily lethargy and mental brain fog',
+      'Supports healthy testosterone and vitality markers naturally',
+      'Reinforces mitochondrial energy synthesis',
+    ],
+    ingredients: [
+      'Shuddha Shilajit (Asphaltum punjabianum) 250mg',
+      'Safed Musli 150mg',
+      'Kaunch Beej (Mucuna pruriens) 150mg',
+      'Ginseng extract 100mg',
+      'Akarkara 50mg',
+    ],
+    howToUse:
+      'Take 1 capsule twice daily with milk or warm water after breakfast and dinner.',
+    reviews: [
+      {
+        id: 'rev-09',
+        userName: 'Girish Kumar',
+        rating: 5,
+        date: '1 month ago',
+        comment:
+          'Felt a noticeable difference in my workout stamina within 10 days. Very genuine herbal supplement.',
+        verified: true,
+      },
+    ],
+  },
+];
+
+export const wellnessGoals = [
+  {
+    id: 'weight-gain',
+    title: 'Weight Gain Support',
+    subtitle: 'Weight Gain Support',
+    description: 'Herpo-based nutrition to help you gain weight in a healthy way.',
+    image: '/images/goals/weight_gain.jpg',
+    category: 'Weight Gain',
+    href: '/products?category=Weight+Gain',
+  },
+  {
+    id: 'weight-management',
+    title: 'Weight Management',
+    subtitle: 'Weight Management',
+    description: 'Support your weight loss journey with natural formulations.',
+    image: '/images/goals/weight_management.jpg',
+    category: 'Weight Management',
+    href: '/products?category=Weight+Management',
+  },
+  {
+    id: 'general-wellness',
+    title: 'General Wellness',
+    subtitle: 'General Wellness',
+    description: 'Boost your overall health, nutrition and lifestyle.',
+    image: '/images/goals/general_wellness.jpg',
+    category: 'General Wellness',
+    href: '/products?category=General+Wellness',
+  },
+];
+
+export const testimonials = [
+  {
+    id: 't-1',
+    name: 'Anjan K.',
+    role: 'Verified Customer',
+    rating: 5,
+    avatar: '/images/testimonials/anjan.jpg',
+    content:
+      '“Herpo Gain Plus really helped me gain healthy weight in 3 months. Highly recommended!”',
+  },
+  {
+    id: 't-2',
+    name: 'Priya M.',
+    role: 'Verified Customer',
+    rating: 5,
+    avatar: '/images/goals/weight_management.jpg',
+    content:
+      '“The best natural support for weight management. Truly impressed with the results!”',
+  },
+  {
+    id: 't-3',
+    name: 'Suresh R.',
+    role: 'Verified Customer',
+    rating: 5,
+    avatar: '/images/goals/general_wellness.jpg',
+    content:
+      '“100% authentic quality products. My overall energy and digestion improved drastically.”',
+  },
+];
